@@ -1,0 +1,19 @@
+uid,name,category,description,price
+100,Chicken Cutlet,MAINCOURSE,Crispy breaded chicken with teriyaki sauce,7.0
+101,Meatball Pasta,MAINCOURSE,Spaghetti with meatballs in tomato sauce,6.0
+102,Sambal Fish,MAINCOURSE,Grilled fish with homemade sambal,8.0
+103,Pepperoni Pizza,MAINCOURSE,"Pizza with pepperoni, cheese and mushrooms",9.0
+104,Salad,MAINCOURSE,Salad with fresh romaine lettuce and corn,4.0
+105,Coffee,DRINKS,Brewed from premium roasted beans,2.0
+106,Tea,DRINKS,Brewed from black tea leaves,2.0
+107,Milo,DRINKS,Chocolate flavoured malted drink,3.0
+108,Orange Juice,DRINKS,Freshly squeezed oranges,4.0
+109,Water,DRINKS,Dihydrogen monoxide,1.0
+110,Ice Cream,DESSERT,Vanilla flavoured,3.0
+111,Sliced Cake,DESSERT,Chocolate flavoured,4.0
+112,Pudding,DESSERT,Mango flavoured,3.0
+113,Apple Pie,DESSERT,Sweet and savoury,5.0
+114,Ais Kacang,DESSERT,Shaved ice with red beans and jelly,6.0
+200,Student Set,Promotion,"Chicken Cutlet,Orange Juice,Ice Cream",12.0,
+201,Lunch Set,Promotion,"Meatball Pasta,Tea,Sliced Cake",10.0,
+202,Breakfast Set,Promotion,"Salad,Water,Ais Kacang",8.0,
