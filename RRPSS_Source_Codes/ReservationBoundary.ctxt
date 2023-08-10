@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=ReservationBoundary
+comment0.text=\r\n\ Calls\ ReservationMgr\ with\ the\ choice\ inputted\ by\ the\ user\r\n\r\n\ @author\ Samarth\ Agarwal\r\n\ @version\ 1.0\r\n\ @since\ 2021-11-12\r\n
+comment1.params=restaurant\ choice
+comment1.target=void\ callReservationMgr(Restaurant,\ int)
+comment1.text=\r\n\ Calls\ appropriate\ methods\ in\ ReservationMgr\ based\ off\ the\ input\ made\r\n\ by\ the\ user\r\n\ @param\ restaurant\ The\ restaurant\ object\ being\ used\ with\ the\ tables\ instantiated\r\n\ @param\ choice\ The\ number\ inputted\ by\ the\ user\r\n
+numComments=2

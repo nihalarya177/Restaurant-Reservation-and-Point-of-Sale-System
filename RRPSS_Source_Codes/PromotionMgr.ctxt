@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=PromotionMgr
+comment0.text=\r\n\ Control\ class\ for\ processing\ Promotions\ in\ the\ menu.\r\n\ Responsible\ for\ Display/Create/Update/Remove\ Promotions\ in\ the\ menu.\r\n\ @author\ Liew\ Kok\ Leong\r\n\ @version\ 1.0\r\n\ @since\ 2021-11-10\r\n
+comment1.params=
+comment1.target=void\ showPromotions()
+comment1.text=\r\n\ Display\ all\ Promotions\ in\ the\ Menu.\r\n
+comment2.params=items\ desc\ price\ itemCount
+comment2.target=void\ createPromotion(java.util.ArrayList,\ java.lang.String,\ double,\ int)
+comment2.text=\r\n\ Create\ a\ new\ Promotion\ and\ add\ it\ to\ the\ Menu,\ also\ update\ the\ csv\ file\ to\ store\ the\ data.\r\n\ @param\ items\ the\ new\ Promotion's\ Items\ Arraylist.\r\n\ @param\ desc\ the\ new\ Promotion's\ name.\r\n\ @param\ price\ the\ new\ Promotion's\ price.\r\n\ @param\ itemCount\ the\ new\ Promotion's\ item\ count.\r\n\ @see\ Promotion\r\n
+comment3.params=items\ desc\ price\ itemCount\ id_no
+comment3.target=void\ updatePromotion(java.util.ArrayList,\ java.lang.String,\ double,\ int,\ int)
+comment3.text=\r\n\ Update\ a\ Promotion\ in\ the\ Menu,\ also\ update\ the\ csv\ file\ to\ store\ the\ data.\r\n\ @param\ items\ the\ Promotion's\ Items\ Arraylist.\r\n\ @param\ desc\ the\ Promotion's\ name.\r\n\ @param\ price\ the\ Promotion's\ price.\r\n\ @param\ itemCount\ the\ Promotion's\ item\ count.\r\n\ @see\ Promotion\r\n
+comment4.params=id
+comment4.target=void\ removePromotion(int)
+comment4.text=\r\n\ Remove\ a\ Promotion\ from\ the\ Menu,\ also\ update\ the\ csv\ file\ to\ store\ the\ data.\r\n\ @param\ id\ the\ Promotion's\ index\ in\ the\ menu.\r\n
+numComments=5

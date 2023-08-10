@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Restaurant
+comment1.params=
+comment1.target=Restaurant()
+comment1.text=\r\n\ Default\ constuctor,\ initialises\ current\ staffs\ and\ tables\ in\ the\ restaurant\r\n
+comment2.params=order
+comment2.target=void\ addOrder(Order)
+comment2.text=\r\n\ This\ method\ adds\ an\ order\ to\ the\ order\ history\r\n\ @param\ order\ the\ order\ object\ to\ be\ added\ to\ the\ order\ history\ \r\n
+comment3.params=
+comment3.target=java.util.ArrayList\ getOrders()
+comment3.text=\r\n\ This\ method\ return\ the\ ArrayList\ of\ orders\ in\ the\ restaurant\r\n\ @return\ the\ ArrayList\ of\ orders\ in\ the\ restaurant\r\n
+comment4.params=name\ gender\ employeeId\ jobTitle
+comment4.target=void\ addStaff(java.lang.String,\ java.lang.String,\ int,\ java.lang.String)
+comment4.text=\r\n\ This\ method\ adds\ a\ new\ Staff\ to\ the\ staffs\ in\ the\ restaurant\r\n\ @param\ name\ the\ staff's\ name\r\n\ @param\ gender\ the\ staff's\ gender\r\n\ @param\ employeeId\ the\ staff's\ ID\r\n\ @param\ jobTitle\ the\ staff's\ job\ title\r\n
+comment5.params=
+comment5.target=java.util.ArrayList\ getStaffs()
+comment5.text=\r\n\ This\ method\ return\ the\ ArrayList\ of\ staffs\ in\ the\ restaurant\r\n\ @return\ the\ ArrayList\ of\ staffs\ in\ the\ restaurant\r\n
+comment6.params=
+comment6.target=java.util.ArrayList\ getTables()
+comment6.text=\r\n\ This\ method\ returns\ the\ ArrayList\ of\ tables\ in\ the\ restaurant\r\n\ @return\ the\ ArrayList\ of\ tables\ in\ the\ restaurant\r\n
+comment7.params=tables
+comment7.target=void\ setTables(java.util.ArrayList)
+comment7.text=\r\n\ This\ method\ sets\ the\ tables\ in\ the\ restaurant\r\n\ @param\ tables\ the\ new\ ArrayList\ of\ tables\r\n
+numComments=8

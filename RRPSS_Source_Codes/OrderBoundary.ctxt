@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=OrderBoundary
+comment0.text=\r\n\ Acts\ as\ an\ interface\ to\ the\ RRPSS\ to\ handle\ order-related\ functionalities\r\n\ @author\ Ang\ Boon\ Leng\r\n\ @version\ 1.0\r\n\ @since\ 2021-11-12\r\n
+comment1.params=p
+comment1.target=OrderBoundary(Print)
+comment1.text=\r\n\ Constructor\r\n\ @param\ p\ the\ object\ of\ Print\ interface\r\n
+comment2.params=
+comment2.target=java.util.Date\ inputDate()
+comment2.text=\r\n\ This\ method\ asks\ the\ user\ to\ input\ a\ date\r\n\ @return\ the\ date\ specified\ by\ the\ user\r\n
+comment3.params=restaurant\ choice
+comment3.target=void\ callOrderMgr(Restaurant,\ int)
+comment3.text=\r\n\ This\ method\ asks\ the\ user\ for\ the\ specific\ order-related\ functionality\ and\ calls\ the\ appropriate\ method\ in\ Order\ control\ class\r\n\ Functionalities\ include\:\ create,\ show\ order;\ add,\ remove\ menu\ items\ from\ an\ order\r\n\ @param\ restaurant\ the\ restaurant\ object\ to\ access\ tables,\ staffs,\ and\ orders\r\n\ @param\ choice\ the\ choice\ of\ functionality\ entered\ by\ the\ user\r\n
+comment4.params=restaurant\ choice
+comment4.target=void\ callPrintMgr(Restaurant,\ int)
+comment4.text=\r\n\ This\ method\ asks\ the\ user\ for\ the\ specific\ print-related\ functionality\ and\ calls\ the\ appropriate\ method\ in\ Print\ control\ class\r\n\ @param\ restaurant\ the\ restaurant\ object\ to\ be\ used\ by\ the\ control\ class\r\n\ @param\ choice\ the\ choice\ of\ functionality\ entered\ by\ the\ user\r\n
+numComments=5

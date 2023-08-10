@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=ItemMgr
+comment0.text=\r\n\ Control\ class\ for\ processing\ Items\ in\ the\ menu.\r\n\ Responsible\ for\ Display/Create/Update/Remove\ Items\ in\ the\ menu.\r\n\ @author\ Liew\ Kok\ Leong\r\n\ @version\ 1.0\r\n\ @since\ 2021-11-10\r\n
+comment1.params=
+comment1.target=void\ showItems()
+comment1.text=\r\n\ Display\ all\ Items\ in\ the\ Menu.\r\n
+comment2.params=type\ name\ desc\ price
+comment2.target=void\ createItem(java.lang.String,\ java.lang.String,\ java.lang.String,\ double)
+comment2.text=\r\n\ Create\ a\ new\ Item\ and\ add\ it\ to\ the\ Menu,\ also\ update\ the\ csv\ file\ to\ store\ the\ data.\r\n\ @param\ type\ the\ new\ Item's\ category\ type.\r\n\ @param\ name\ the\ new\ Item's\ name.\r\n\ @param\ desc\ the\ new\ Item's\ description.\r\n\ @param\ price\ the\ new\ Item's\ price.\r\n\ @see\ Item\r\n
+comment3.params=id\ name\ desc\ price
+comment3.target=void\ updateItem(int,\ java.lang.String,\ java.lang.String,\ double)
+comment3.text=\r\n\ Update\ an\ Item\ in\ the\ Menu,\ also\ update\ the\ csv\ file\ to\ store\ the\ data.\r\n\ @param\ id\ the\ Item's\ index.\r\n\ @param\ name\ the\ Item's\ name.\r\n\ @param\ desc\ the\ Item's\ description.\r\n\ @param\ price\ the\ Item's\ price.\r\n\ @see\ Item\r\n
+comment4.params=id
+comment4.target=void\ removeItem(int)
+comment4.text=\r\n\ Remove\ an\ Item\ from\ the\ Menu,\ also\ update\ the\ csv\ file\ to\ store\ the\ data.\r\n\ @param\ id\ the\ Item's\ index\ in\ the\ menu.\r\n
+comment5.params=
+comment5.target=MenuDB\ getMenu()
+comment5.text=\r\n\ Gets\ the\ menu.\r\n
+numComments=6

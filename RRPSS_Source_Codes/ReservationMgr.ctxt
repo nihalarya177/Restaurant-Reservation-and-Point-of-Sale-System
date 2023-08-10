@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=ReservationMgr
+comment0.text=\r\n\ Manages\ the\ Reservations\ made\ in\ the\ Restaurant\r\n\ A\ restaruant\ has\ multipls\ tables\ which\ can\ have\ multiple\ reservations\r\n\r\n\ @author\ SamarthAgarwal\r\n\ @version\ 1.0\r\n\ @since\ 2021-11-12\r\n
+comment1.params=restaurant\ custName\ pax\ contact\ reservedDate\ reservedTime
+comment1.target=void\ createReservation(Restaurant,\ java.lang.String,\ int,\ int,\ java.util.Date,\ java.util.Date)
+comment1.text=\r\n\ Creates\ a\ reservation\ and\ adds\ it\ to\ the\ first\ available\ table.\r\n\ pax\ should\ be\ smaller\ than\ or\ equal\ to\ table\ capacity\r\n\ if\ a\ table\ has\ reservations,\ it\ is\ only\ available\ if\ the\ new\ reservation\r\n\ is\ atleast\ 2\ hours\ after\ the\ previous\ reservations\ \r\n\ @param\ restaurant\ The\ restaurant\ object\ being\ used\ with\ the\ tables\ instantiated\r\n\ @param\ custName\ The\ customer\ name\ for\ whom\ the\ reservation\ is\ being\ made\r\n\ @param\ pax\ number\ of\ people\ in\ the\ party\r\n\ @param\ contact\ The\ contact\ of\ the\ customer\r\n\ @param\ reservedDate\ the\ date\ at\ which\ the\ table\ will\ be\ occupied\r\n\ @param\ reservedTime\ the\ time\ at\ which\ the\ table\ will\ be\ occupied\r\n
+comment2.params=restaurant\ custName
+comment2.target=void\ showReservation(Restaurant,\ java.lang.String)
+comment2.text=\r\n\ Shows\ the\ reservation\ made\ by\ the\ customer\r\n\ @param\ restaurant\ The\ restaurant\ object\ being\ used\ with\ the\ tables\ instantiated\r\n\ @param\ custName\ The\ customer\ name\ for\ whom\ the\ reservation\ is\ being\ shown\r\n
+comment3.params=restaurant\ custName
+comment3.target=void\ removeReservation(Restaurant,\ java.lang.String)
+comment3.text=\r\n\ Removes\ the\ reservation\ made\ by\ the\ customer\r\n\ @param\ restaurant\ The\ restaurant\ object\ being\ used\ with\ the\ tables\ instantiated\r\n\ @param\ custName\ The\ customer\ name\ for\ whom\ the\ reservation\ is\ being\ removed\r\n
+comment4.params=restaurant
+comment4.target=void\ showTableAvailability(Restaurant)
+comment4.text=\r\n\ Shows\ the\ tables\ and\ the\ reservations,\ if\ any,\ at\ that\ table\ two\ hours\ from\ current\ time\r\n\ @param\ restaurant\ The\ restaurant\ object\ being\ used\ with\ the\ tables\ instantiated\r\n
+comment5.params=restaurant\ reservationDate\ reservationTime\ pax
+comment5.target=Table\ getTableAvailability(Restaurant,\ java.util.Date,\ java.util.Date,\ int)
+comment5.text=\r\n\ Checs\ which\ tables\ have\ seating\ capacity\ greater\ than\ the\ pax\ of\ the\r\n\ people\ at\ the\ party\ and\ checks\ whether\ there\ is\ an\ existing\ reservation\r\n\ two\ hours\ within\ that\ time\ frame\r\n\ @param\ restaurant\ The\ restaurant\ object\ being\ used\ with\ the\ tables\ instantiated\r\n\ @param\ reservationDate\ The\ date\ at\ which\ the\ reservation\ will\ be\ made\r\n\ @param\ reservationTime\ the\ time\ at\ which\ the\ reservation\ will\ be\ made\r\n\ @param\ pax\ the\ number\ of\ people\ in\ the\ party\r\n\ @return\ Table\ the\ table\ at\ which\ the\ reservation\ will\ be\ made\r\n
+numComments=6

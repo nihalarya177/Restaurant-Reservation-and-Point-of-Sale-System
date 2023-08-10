@@ -1,0 +1,19 @@
+uid,name,category,description,price
+101,Chicken Cutlet,MainCourse,Crispy breaded chicken with teriyaki sauce,7
+102,Meatball Pasta,MainCourse,Spaghetti with meatballs in tomato sauce,6
+103,Sambal Fish,MainCourse,Grilled fish with homemade sambal,8
+104,Pepperoni Pizza,MainCourse,"Pizza with pepperoni, cheese and mushrooms",9
+105,Salad,MainCourse,Salad with fresh romaine lettuce and corn,4
+201,Coffee,Drinks,Brewed from premium roasted beans,2
+202,Tea,Drinks,Brewed from black tea leaves,2
+203,Milo,Drinks,Chocolate flavoured malted drink,3
+204,Orange Juice,Drinks,Freshly squeezed oranges,4
+205,Water,Drinks,Dihydrogen monoxide,1
+301,Ice Cream,Dessert,Vanilla flavoured,3
+302,Sliced Cake,Dessert,Chocolate flavoured,4
+303,Pudding,Dessert,Mango flavoured,3
+304,Apple Pie,Dessert,Sweet and savoury,5
+305,Ais Kacang,Dessert,Shaved ice with red beans and jelly,6
+401,Student Set,Promotion,"101 Chicken Cutlet, 204 Orange Juice, 301 Ice Cream",12
+402,Lunch Set,Promotion,"102 Meatball Pasta, 202 Tea, 302 Sliced Cake",10
+403,Dinner Set,Promotion,"103 Sambal Fish, 203 Milo, 303 Pudding",12

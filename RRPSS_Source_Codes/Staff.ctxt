@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Staff
+comment1.params=name\ gender\ staffID\ jobTitle
+comment1.target=Staff(java.lang.String,\ java.lang.String,\ int,\ java.lang.String)
+comment2.params=
+comment2.target=int\ getEmployeeID()
+comment3.params=employee_id
+comment3.target=void\ setEmployeeID(int)
+comment4.params=
+comment4.target=java.lang.String\ getjobTitle()
+comment5.params=job_title
+comment5.target=void\ setjobTitle(java.lang.String)
+numComments=6

@@ -1,0 +1,4 @@
+#BlueJ class context
+comment0.target=ItemType
+comment0.text=\r\n\ Enumeration\ of\ category\ type\ for\ item\ in\ the\ menu.\r\n\ A\ item\ can\ only\ be\ one\ of\ category\ type.\r\n\ @author\ Liew\ Kok\ Leong\r\n\ @version\ 1.0\r\n\ @since\ 2021-11-10\r\n
+numComments=1
